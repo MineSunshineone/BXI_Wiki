@@ -31,7 +31,7 @@ theme:
 extra:
   alternate:
     - name: 简体中文
-      link: ./
+      link: /
       lang: zh
     - name: English
       link: /en/
