@@ -1,6 +1,7 @@
 site_name: BXI_Wiki
 site_description: an example blog set up following the tutorial
 site_url: https://wiki.bxirobotics.cn
+copyright: Copyright &copy; 2022-2026 BXI Robotics
 
 theme:
   name: material
@@ -39,7 +40,13 @@ extra:
       link: /en/
       lang: en
 
-repo_name: MineSunshineone/BXI_Wiki
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/bxirobotics/BXI_Wiki
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/bxirobotics
+
+repo_name: bxirobotics/BXI_Wiki
 repo_url: https://github.com/bxirobotics/BXI_Wiki
 edit_uri: edit/main/docs/
 
@@ -78,17 +85,3 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
-nav:
-  - 首页: zh/index.md
-  - ELF3:
-      - 概览: zh/elf3/index.md
-      - 快速入门: zh/elf3/quick_start.md
-  - 关节模组:
-      - 概览: zh/joint_module/index.md
-  - 强化学习:
-      - 概览: zh/rl/index.md
-  - 重映射:
-      - 概览: zh/remapping/index.md
-  - 其他:
-      - 概览: zh/others/index.md

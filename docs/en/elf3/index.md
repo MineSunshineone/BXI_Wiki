@@ -4,7 +4,7 @@ This document contains instructions for unboxing, basic operations, safety preca
 
 ---
 
-## 📦 Unboxing Instructions
+## Unboxing Instructions
 
 1. **Placement and Unboxing**: Open the box face up, remove the surrounding foam, and lift the robot out with **at least two people**.
     - **Pay strict attention to the cable positions** during extraction to avoid crushing or tearing.
@@ -23,7 +23,7 @@ This document contains instructions for unboxing, basic operations, safety preca
 
 ---
 
-## ⚡ Power-on and Operation Steps
+## Power-on and Operation Steps
 
 ### 1. Turn on Battery Power & Host Power
 - Press the battery power button. The battery will supply power normally, and the voltage should display **above 45V**; the host will also power on simultaneously.
@@ -60,7 +60,7 @@ The built-in control program of the robot has multiple modes: Zero Torque, PD Ho
 
 ---
 
-## 🛑 Shutdown and De-energization
+## Shutdown and De-energization
 
 #### 4.1 Terminate / De-energize Key
 - Press the **Terminate button**, the control program will exit automatically, and the robot motors will **immediately de-energize (lose power)**. The robot will naturally fall due to gravity.
@@ -69,7 +69,7 @@ The built-in control program of the robot has multiple modes: Zero Torque, PD Ho
 
 ---
 
-## 🎮 Gamepad Motion Control Instructions
+## Gamepad Motion Control Instructions
 
 | Function | Operation Method | Description |
 | :--- | :--- | :--- |
@@ -81,17 +81,17 @@ The built-in control program of the robot has multiple modes: Zero Torque, PD Ho
 
 ---
 
-## 💻 Custom Program (SDK) Control
+## Custom Program (SDK) Control
 
 This section applies to developers who **do not use the pre-built program and gamepad**, but wish to control the robot's movement via custom algorithms, ROS, or other programs.
 
 The operating environment and low-level programs on the machine are already prepared, fully supporting "out-of-the-box" usage.
 - Accompanying SDK and ROS2 example link:
-  👉 <https://github.com/bxirobotics/bxi_rl_controller_ros2_example>
+  <https://github.com/bxirobotics/bxi_rl_controller_ros2_example>
 
 ---
 
-## 🧳 Packing and Transportation Instructions
+## Packing and Transportation Instructions
 
 > [Supplement: Insert packing instruction picture here]
 
