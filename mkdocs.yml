@@ -52,7 +52,6 @@ edit_uri: edit/main/docs/
 
 plugins:
   - search
-  - awesome-pages
   - redirects
   - mkdocs-video
   - glightbox
@@ -68,6 +67,8 @@ plugins:
           name: 简体中文
         - locale: en
           name: English
+  - literate-nav:
+      nav_file: nav.md
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
