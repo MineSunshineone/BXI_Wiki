@@ -5,8 +5,8 @@
 ### 基本信息
 
 - 名称：`BXI_Tool`
-- 图标：<img src="../../assets/other/logo.png" alt="logo" width="45" style="display:inline; vertical-align:middle;" />
-- 版本：`v260401`
+- 图标：<img src="/assets/other/logo.png" alt="logo" width="45" style="display:inline; vertical-align:middle;" />
+- 版本：`v260403`
 - 语言：中文与英文（右上角可切换）
 - 下载链接：[点击跳转下载站](https://download.bxirobotics.cn/%E7%94%B5%E6%9C%BAAPP)
 
@@ -14,7 +14,7 @@
 
 <div style="display:flex; gap:24px; align-items:flex-start; flex-wrap:wrap;">
   <div style="flex:0 0 38%; min-width:180px;">
-    <img src="../assets/actuators/intro.png" alt="界面介绍" style="width:100%; height:auto; display:block;" />
+    <img src="/assets/actuators/intro.png" alt="界面介绍" style="width:100%; height:auto; display:block;" />
   </div>
   <div style="flex:1 1 58%; min-width:220px;">
 

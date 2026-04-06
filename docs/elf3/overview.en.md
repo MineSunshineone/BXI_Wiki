@@ -6,10 +6,9 @@ title: Product Introduction
 
 ELF 3 is a medium-sized humanoid robot developed in-house by BXI Robotics, standing 1.45 m tall with motion parameters comparable to a human of similar height. It is designed for high-dynamic movement and open-platform development.
 
-<div style="display:flex; gap:16px; margin:24px 0;">
-  <img src="../assets/elf3/robo2.png" alt="ELF 3 Front View" style="width:50%; object-fit:contain;">
-  <img src="../assets/elf3/robo1.png" alt="ELF 3 Side View" style="width:50%; object-fit:contain;">
-</div>
+| ![ELF 3 Front View](../assets/elf3/robo2.png) | ![ELF 3 Side View](../assets/elf3/robo1.png) |
+|:---:|:---:|
+| Front View | Side View |
 
 ---
 

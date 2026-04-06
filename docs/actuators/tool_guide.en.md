@@ -5,8 +5,8 @@
 ### Basic Information
 
 - Name: `BXI_Tool`
-- Icon: <img src="../../assets/other/logo.png" alt="logo" width="45" style="display:inline; vertical-align:middle;" />
-- Version: `v260401`
+- Icon: <img src="/assets/other/logo.png" alt="logo" width="45" style="display:inline; vertical-align:middle;" />
+- Version: `v260403`
 - Languages: Chinese and English (switch in the top-right corner)
 - Download: [Go to Download Page](https://download.bxirobotics.cn/%E7%94%B5%E6%9C%BAAPP)
 
@@ -14,7 +14,7 @@
 
 <div style="display:flex; gap:24px; align-items:flex-start; flex-wrap:wrap;">
   <div style="flex:0 0 38%; min-width:180px;">
-    <img src="../assets/actuators/intro.png" alt="Interface Overview" style="width:100%; height:auto; display:block;" />
+ 
   </div>
   <div style="flex:1 1 58%; min-width:220px;">
 
