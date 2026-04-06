@@ -1,10 +1,10 @@
 ---
-title: Joint Module
+title: Actuators
 ---
 
-# Joint Module
+# Actuators
 
-This section contains communication protocol and PC tool usage documents for the joint module.
+This section contains communication protocol and PC tool usage documents for the actuators.
 
 ## Documents
 

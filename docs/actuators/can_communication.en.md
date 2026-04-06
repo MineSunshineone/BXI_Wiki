@@ -1,6 +1,6 @@
 # CAN Communication Guide
 
-This document describes the CAN/CANFD communication protocol of the BXI joint module in MIT control mode.
+This document describes the CAN/CANFD communication protocol of the BXI actuator in MIT control mode.
 
 ## 1. Communication Overview
 

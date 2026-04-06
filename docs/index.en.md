@@ -7,10 +7,10 @@ hide:
 
 <div align="center">
   <h1>Welcome to BXI Robotics Developer Documentation</h1>
-  <p>Explore bipedal robots, custom joint modules, and advanced reinforcement learning algorithms</p>
+  <p>Explore bipedal robots, custom actuators, and advanced reinforcement learning algorithms</p>
   <br>
   <a href="elf3/" class="md-button md-button--primary">Get Started with ELF3</a>
-  <a href="actuators/" class="md-button md-button--primary">Explore Joint Modules</a>
+  <a href="actuators/" class="md-button md-button--primary">Explore Actuators</a>
   <a href="https://demo.bxirobotics.cn" class="md-button">Open Demo</a>
 </div>
 
@@ -26,11 +26,11 @@ hide:
 
     [Explore Details :octicons-arrow-right-24:](elf3/index.md)
 
--   **Joint Module**
+-   **Actuators**
 
     ---
 
-    Get the wiring instructions, communication protocol manual, and performance tuning guide for BXI joint modules.
+    Get the wiring instructions, communication protocol manual, and performance tuning guide for BXI actuators.
 
     [Explore Details :octicons-arrow-right-24:](actuators/index.md)
 
