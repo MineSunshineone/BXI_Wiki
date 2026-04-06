@@ -53,19 +53,6 @@ ELF 3 is a medium-sized humanoid robot developed in-house by BXI Robotics, stand
 | **DOF per Arm** | 7 (Shoulder YXZ × 3 + Elbow Y × 1 + Wrist XYZ × 3) |
 | **Motor Series** | BXI Hollow Planetary |
 
-### Joint Motor Selection
-
-| Joint | Motor | Peak Torque |
-| :--- | :--- | :--- |
-| `waist_z_joint` | BXI8515-19 | 120–150 Nm |
-| `waist_x_joint`, `waist_y_joint` | BXI7010-19 × 2 (dual motor) | 2 × 50 Nm each |
-| `l_hip_x_joint`, `r_hip_x_joint`, `l_hip_y_joint`, `r_hip_y_joint`, `l_knee_y_joint`, `r_knee_y_joint` | BXI8515-19 | 150 Nm |
-| `l_hip_z_joint`, `r_hip_z_joint` | BXI7010-19 | 50 Nm |
-| `l_ankle_y_joint`, `r_ankle_y_joint`, `l_ankle_x_joint`, `r_ankle_x_joint` | BXI5018-19 × 2 (parallel) | > 50 Nm combined |
-| `l_shoulder_y_joint`, `r_shoulder_y_joint`, `l_shoulder_x_joint`, `r_shoulder_x_joint`, `l_elbow_y_joint`, `r_elbow_y_joint` | BXI7010-19 | 50 Nm |
-| `l_shoulder_z_joint`, `r_shoulder_z_joint`, `l_wrist_x_joint`, `r_wrist_x_joint`, `l_wrist_y_joint`, `r_wrist_y_joint`, `l_wrist_z_joint`, `r_wrist_z_joint` | BXI5014-19 | 25 Nm |
-| `neck_z_joint`, `neck_y_joint` | BXI5014-19 | 25 Nm |
-
 ---
 
 ## Electrical System
@@ -122,36 +109,36 @@ ELF 3 is a medium-sized humanoid robot developed in-house by BXI Robotics, stand
 
 ## Full Joint Parameters
 
-| Joint | Min (rad) | Max (rad) | Peak Torque (Nm) | Peak Speed (rad/s) | Inertia (kg·m²) |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| waist_y_joint | −0.5236 | 0.5236 | 90 | 20 | 0.0274702 |
-| waist_x_joint | −0.2618 | 0.2618 | 100 | 20 | 0.0412054 |
-| waist_z_joint | −2.8798 | 2.8798 | 150 | 20 | 0.044688 |
-| l_hip_y_joint | −2.8798 | 2.8798 | 150 | 20 | 0.044688 |
-| l_hip_x_joint | −0.48869 | 3.0543 | 150 | 20 | 0.044688 |
-| l_hip_z_joint | −2.8798 | 2.8798 | 45 | 20 | 0.0137351 |
-| l_knee_y_joint | −0.087266 | 2.618 | 150 | 20 | 0.044688 |
-| l_ankle_y_joint | −0.87266 | 0.7854 | 40 | 20 | 0.00848397 |
-| l_ankle_x_joint | −0.34907 | 0.34907 | 15 | 20 | 0.00551458 |
-| r_hip_y_joint | −2.8798 | 2.8798 | 150 | 20 | 0.044688 |
-| r_hip_x_joint | −3.0543 | 0.48869 | 150 | 20 | 0.044688 |
-| r_hip_z_joint | −2.8798 | 2.8798 | 45 | 20 | 0.0137351 |
-| r_knee_y_joint | −0.087266 | 2.618 | 150 | 20 | 0.044688 |
-| r_ankle_y_joint | −0.87266 | 0.7854 | 40 | 20 | 0.00848397 |
-| r_ankle_x_joint | −0.34907 | 0.34907 | 15 | 20 | 0.00551458 |
-| l_shoulder_y_joint | −2.8798 | 2.8798 | 45 | 20 | 0.0137351 |
-| l_shoulder_x_joint | −0.34907 | 3.0543 | 45 | 20 | 0.0137351 |
-| l_shoulder_z_joint | −2.8798 | 2.8798 | 21 | 20 | 0.00424198 |
-| l_elbow_y_joint | −0.95993 | 1.6581 | 45 | 20 | 0.0137351 |
-| l_wrist_x_joint | −2.8798 | 2.8798 | 21 | 20 | 0.00424198 |
-| l_wrist_y_joint | −1.309 | 1.309 | 21 | 20 | 0.00424198 |
-| l_wrist_z_joint | −0.7854 | 0.7854 | 21 | 20 | 0.00424198 |
-| r_shoulder_y_joint | −2.8798 | 2.8798 | 45 | 20 | 0.0137351 |
-| r_shoulder_x_joint | −3.0543 | 0.34907 | 45 | 20 | 0.0137351 |
-| r_shoulder_z_joint | −2.8798 | 2.8798 | 21 | 20 | 0.00424198 |
-| r_elbow_y_joint | −0.95993 | 1.6581 | 45 | 20 | 0.0137351 |
-| r_wrist_x_joint | −2.8798 | 2.8798 | 21 | 20 | 0.00424198 |
-| r_wrist_y_joint | −1.309 | 1.309 | 21 | 20 | 0.00424198 |
-| r_wrist_z_joint | −0.7854 | 0.7854 | 21 | 20 | 0.00424198 |
-| neck_z_joint | −1.57 | 1.57 | 21 | 20 | 0.00424198 |
-| neck_y_joint | −0.7854 | 0.7854 | 21 | 20 | 0.00424198 |
+| Joint | Motor | Min (rad) | Max (rad) | Peak Torque (Nm) | Peak Speed (rad/s) | Inertia (kg·m²) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| waist_y_joint | BXI7010-19 × 2 | −0.5236 | 0.5236 | 90 | 20 | 0.0274702 |
+| waist_x_joint | BXI7010-19 × 2 | −0.2618 | 0.2618 | 100 | 20 | 0.0412054 |
+| waist_z_joint | BXI8515-19 | −2.8798 | 2.8798 | 150 | 20 | 0.044688 |
+| l_hip_y_joint | BXI8515-19 | −2.8798 | 2.8798 | 150 | 20 | 0.044688 |
+| l_hip_x_joint | BXI8515-19 | −0.48869 | 3.0543 | 150 | 20 | 0.044688 |
+| l_hip_z_joint | BXI7010-19 | −2.8798 | 2.8798 | 45 | 20 | 0.0137351 |
+| l_knee_y_joint | BXI8515-19 | −0.087266 | 2.618 | 150 | 20 | 0.044688 |
+| l_ankle_y_joint | BXI5018-19 × 2 | −0.87266 | 0.7854 | 40 | 20 | 0.00848397 |
+| l_ankle_x_joint | BXI5018-19 × 2 | −0.34907 | 0.34907 | 15 | 20 | 0.00551458 |
+| r_hip_y_joint | BXI8515-19 | −2.8798 | 2.8798 | 150 | 20 | 0.044688 |
+| r_hip_x_joint | BXI8515-19 | −3.0543 | 0.48869 | 150 | 20 | 0.044688 |
+| r_hip_z_joint | BXI7010-19 | −2.8798 | 2.8798 | 45 | 20 | 0.0137351 |
+| r_knee_y_joint | BXI8515-19 | −0.087266 | 2.618 | 150 | 20 | 0.044688 |
+| r_ankle_y_joint | BXI5018-19 × 2 | −0.87266 | 0.7854 | 40 | 20 | 0.00848397 |
+| r_ankle_x_joint | BXI5018-19 × 2 | −0.34907 | 0.34907 | 15 | 20 | 0.00551458 |
+| l_shoulder_y_joint | BXI7010-19 | −2.8798 | 2.8798 | 45 | 20 | 0.0137351 |
+| l_shoulder_x_joint | BXI7010-19 | −0.34907 | 3.0543 | 45 | 20 | 0.0137351 |
+| l_shoulder_z_joint | BXI5014-19 | −2.8798 | 2.8798 | 21 | 20 | 0.00424198 |
+| l_elbow_y_joint | BXI7010-19 | −0.95993 | 1.6581 | 45 | 20 | 0.0137351 |
+| l_wrist_x_joint | BXI5014-19 | −2.8798 | 2.8798 | 21 | 20 | 0.00424198 |
+| l_wrist_y_joint | BXI5014-19 | −1.309 | 1.309 | 21 | 20 | 0.00424198 |
+| l_wrist_z_joint | BXI5014-19 | −0.7854 | 0.7854 | 21 | 20 | 0.00424198 |
+| r_shoulder_y_joint | BXI7010-19 | −2.8798 | 2.8798 | 45 | 20 | 0.0137351 |
+| r_shoulder_x_joint | BXI7010-19 | −3.0543 | 0.34907 | 45 | 20 | 0.0137351 |
+| r_shoulder_z_joint | BXI5014-19 | −2.8798 | 2.8798 | 21 | 20 | 0.00424198 |
+| r_elbow_y_joint | BXI7010-19 | −0.95993 | 1.6581 | 45 | 20 | 0.0137351 |
+| r_wrist_x_joint | BXI5014-19 | −2.8798 | 2.8798 | 21 | 20 | 0.00424198 |
+| r_wrist_y_joint | BXI5014-19 | −1.309 | 1.309 | 21 | 20 | 0.00424198 |
+| r_wrist_z_joint | BXI5014-19 | −0.7854 | 0.7854 | 21 | 20 | 0.00424198 |
+| neck_z_joint | BXI5014-19 | −1.57 | 1.57 | 21 | 20 | 0.00424198 |
+| neck_y_joint | BXI5014-19 | −0.7854 | 0.7854 | 21 | 20 | 0.00424198 |
