@@ -24,7 +24,7 @@ hide:
 
     Explore the ELF3 bipedal robot unboxing guide, operation instructions, and gamepad manual. Learn how to perform secondary development based on the SDK.
 
-    [Explore Details :octicons-arrow-right-24:](elf3/index.md)
+    [Explore Details :octicons-arrow-right-24:](elf3/overview.md)
 
 -   **Actuators**
 
@@ -32,7 +32,7 @@ hide:
 
     Get the wiring instructions, communication protocol manual, and performance tuning guide for BXI actuators.
 
-    [Explore Details :octicons-arrow-right-24:](actuators/index.md)
+    [Explore Details :octicons-arrow-right-24:](actuators/can_communication.md)
 
 -   **Reinforcement Learning (RL)**
 
@@ -40,7 +40,7 @@ hide:
 
     Learn how to train your robot in simulation environments and deploy reinforcement learning policies to real robot hardware.
 
-    [Explore Details :octicons-arrow-right-24:](rl/index.md)
+    [Explore Details :octicons-arrow-right-24:](rl/overview.md)
 
 -   **Remapping**
 
@@ -48,7 +48,7 @@ hide:
 
     Master customized remote control buttons, control command remapping, and action definition configuration methods.
 
-    [Explore Details :octicons-arrow-right-24:](remapping/index.md)
+    [Explore Details :octicons-arrow-right-24:](remapping/overview.md)
 
 -   **Others**
 
@@ -56,6 +56,6 @@ hide:
 
     Other system tools, firmware upgrade guides, and Frequently Asked Questions (FAQ).
 
-    [Explore Details :octicons-arrow-right-24:](others/index.md)
+    [Explore Details :octicons-arrow-right-24:](others/overview.md)
 
 </div>

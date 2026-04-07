@@ -24,7 +24,7 @@ hide:
 
     ELF3 精灵3人形机器人的开箱指南、操作说明以及使用手册，了解如何基于 SDK 进行二次开发。
 
-    [查看详情 :octicons-arrow-right-24:](elf3/index.md)
+    [查看详情 :octicons-arrow-right-24:](elf3/overview.md)
 
 -   **关节模组**
 
@@ -32,7 +32,7 @@ hide:
 
     获取 BXI 关节模组的接线说明、通信协议手册以及性能调试指南。
 
-    [查看详情 :octicons-arrow-right-24:](actuators/index.md)
+    [查看详情 :octicons-arrow-right-24:](actuators/can_communication.md)
 
 -   **强化学习 (RL)**
 
@@ -40,7 +40,7 @@ hide:
 
     学习如何在仿真环境中训练机器人，并将强化学习策略部署到真实机器人硬件上。
 
-    [查看详情 :octicons-arrow-right-24:](rl/index.md)
+    [查看详情 :octicons-arrow-right-24:](rl/overview.md)
 
 -   **重映射 (Retargeting)**
 
@@ -48,7 +48,7 @@ hide:
 
     将动作数据重映射到精灵3的配置空间。
 
-    [查看详情 :octicons-arrow-right-24:](remapping/index.md)
+    [查看详情 :octicons-arrow-right-24:](remapping/overview.md)
 
 -   **其他说明**
 
@@ -56,6 +56,6 @@ hide:
 
     包含系统工具、固件升级指南以及常见问题解答（FAQ）。
 
-    [查看详情 :octicons-arrow-right-24:](others/index.md)
+    [查看详情 :octicons-arrow-right-24:](others/overview.md)
 
 </div>
