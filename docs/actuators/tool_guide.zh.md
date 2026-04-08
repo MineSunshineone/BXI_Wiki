@@ -6,7 +6,7 @@
 
 - 名称：`BXI_Tool`
 - 图标：<img src="/assets/other/logo.png" alt="logo" width="45" style="display:inline; vertical-align:middle;" />
-- 版本：`v260403`
+- 版本：`Latest`
 - 语言：中文与英文（右上角可切换）
 - 下载链接：[点击跳转下载站](https://download.bxirobotics.cn/%E7%94%B5%E6%9C%BAAPP)
 

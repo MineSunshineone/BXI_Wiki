@@ -6,7 +6,7 @@
 
 - Name: `BXI_Tool`
 - Icon: <img src="/assets/other/logo.png" alt="logo" width="45" style="display:inline; vertical-align:middle;" />
-- Version: `v260403`
+- Version: `Latest`
 - Languages: Chinese and English (switch in the top-right corner)
 - Download: [Go to Download Page](https://download.bxirobotics.cn/%E7%94%B5%E6%9C%BAAPP)
 
