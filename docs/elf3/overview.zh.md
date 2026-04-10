@@ -140,7 +140,7 @@ title: 产品介绍
 ---
 
 ## 全身关节运动参数
-详细电机参数 见 [关节电机模组](https://wiki.bxirobotics.cn/actuators/Introduction/BXI5014-1z9/)      
+详细电机参数 见 [关节电机模组](https://wiki.bxirobotics.cn/actuators/Introduction)      
 
 
 | 关节 | 电机 | 最小角度 (rad) | 最大角度 (rad) | 峰值扭矩 (Nm) | 峰值速度 (rad/s) | 等效转动惯量 (kg·m²) |
