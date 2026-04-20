@@ -1,14 +1,14 @@
 # Operation Guide
 
-This document contains instructions for unboxing, basic operations, safety precautions, and secondary development for the ELF3 robot.
+This document contains instructions for unboxing, basic operations, safety precautions, and secondary development for the Genie 3 ELF3 robot.
 
 ---
 
 ## Unboxing Instructions
 
 1. **Placement and Unboxing**: Open the box face up, remove the surrounding foam, and lift the robot out with **at least two people**.
-    - **Pay strict attention to the cable positions** during extraction to avoid crushing or tearing.
-    - After taking it out, it is recommended to suspend the robot using a hanger or lay it flat on the ground.
+    - **Pay strict attention to the cable positions during extraction** to avoid crushing or tearing.
+    - After taking it out, it is recommended to **suspend the robot using a hanger** or lay it flat on the ground.
 
 2. **Backplate Structure Introduction**:
     - The following figure shows the backplate structure of the robot (*(Physical image pending)*).
@@ -26,8 +26,8 @@ This document contains instructions for unboxing, basic operations, safety preca
 ## Power-on and Operation Steps
 
 ### 1. Turn on Battery Power & Host Power
-- Press the battery power button. The battery will supply power normally, and the voltage should display **above 45V**; the host will also power on simultaneously.
-- If the voltage is insufficient, it is recommended to charge it to over 48V before operating.
+- At this stage, the robot should be suspended on the hanger, with both feet touching the ground.
+- Press the battery power button. The battery will supply power normally, and the voltage should display **above 45V**; the host will also power on simultaneously. **If the voltage is insufficient, it is recommended to charge it to above 47V before operating.**
 - After the robot PC powers on, the Linux system starts running, **but the control program is not yet running**. At this time, the robot joint torque is 0, and it is in a **relaxed state**. It is recommended to hang the robot on a hanger at this point.
 
 ### 2. Connect Remote Controller
@@ -36,12 +36,14 @@ Connect the remote controller to the robot PC via Bluetooth. The controller is p
 - Wait for the indicator light below the button to stay **solid**, which means the controller has successfully connected to the robot PC.
 
 ### 3. Run the Control Program
+Watch the operation instruction video carefully.
 The built-in control program of the robot has multiple modes: Zero Torque, PD Homing, Walk/Run, Dance, etc., and will be continuously updated.
 
 !!! warning "Important: Pre-Movement Preparation"
     - To prevent accidental falls, ensure the robot is hung on a gantry crane using a lanyard, sitting on a chair, or sitting upright on the ground. **It is highly recommended to use a hanger and suspend the robot at an appropriate height.**
     - **Remove all cables from the body** (such as charging cables) to prevent tangling during movement.
-    - Watch the operation instruction video carefully. **Always prioritize safety** during operation, and avoid getting hit by the swinging joints of the robot.
+    - **Make sure the battery has enough charge** (above 45V) so the robot does not fall because it cannot complete certain motions due to insufficient power.
+    - **Always prioritize safety** during operation. **No one should enter the robot's motion range**, and avoid getting hit by the swinging joints of the robot.
 
 #### 3.1 Start the Program
 *(It is recommended to remain suspended)*: After the robot powers on, **press the Right Stick (RS/R3)**. Observe the chest light of the robot; if it lights up, the control program has started running. It enters **Zero Torque mode** by default. After starting the program, the robot won't react until another button is pressed.
