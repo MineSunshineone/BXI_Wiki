@@ -45,7 +45,9 @@ The built-in control program of the robot has multiple modes: Zero Torque, PD Ho
     - **Make sure the battery has enough charge** (above 45V) so the robot does not fall because it cannot complete certain motions due to insufficient power.
     - **Always prioritize safety** during operation. **No one should enter the robot's motion range**, and avoid getting hit by the swinging joints of the robot.
 
-#### 3.1 Start the Program
+#### 3.1 Start the Program    
+!!! warning "Important: Pre-Zero-Position Check"    
+    - Ensure the robot’s limbs are not in a posture that may cause motor stalling during the zero-position movement.    
 *(It is recommended to remain suspended)*: After the robot powers on, **press the Right Stick (RS/R3)**. Observe the chest light of the robot; if it lights up, the control program has started running. It enters **Zero Torque mode** by default. After starting the program, the robot won't react until another button is pressed.
 
 #### 3.2 Initial Position (Zeroing) Initialization
