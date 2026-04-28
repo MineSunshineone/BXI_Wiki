@@ -21,4 +21,3 @@ title: 系统架构说明
 - 基于ROS2的控制策略部署框架，无缝部署到仿真/真机硬件：https://github.com/bxirobotics/bxi_rl_controller_ros2_example    
 - 机器人URDF：https://github.com/bxirobotics/bxi_rl_controller_ros2_example/tree/main/resources    
 
-
