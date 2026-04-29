@@ -11,7 +11,7 @@ title: 系统架构说明
 - 基于ROS2的硬件管理节点，控制策略无缝部署到仿真/真机硬件；     
 - 基于强化学习的运控控制训练示例代码；    
 
-![系统架构](../../assets/elf3/software_structure.png) 
+![系统架构](../../assets/elf3/developer/overview/software_structure.png) 
 
 
 

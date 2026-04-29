@@ -31,7 +31,7 @@ cd /home/bxi/bxi_ws/bxi_rl_controller_ros2_example
 source install/setup.bash
 ros2 launch bxi_example_py_elf3 example_launch_demo_hw.py
 ```
-![alt text](../../assets/elf3/motion1.png)<br>
+![alt text](../../assets/elf3/developer/motioncontrol/motion1.png)<br>
 启动后电机会上电,观察全身电机会有绿灯,机器人会进入自检，如果6s左右后绿灯没有熄灭说明自检通过<br>
 - 启动遥控器程序
 ```
@@ -237,7 +237,7 @@ ros2 run my_py_pkg motion_ctrl
 ```
 systemctl status ros_elf_launch.service
 ```
-![alt text](../../assets/elf3/motionservice.png)<br>
+![alt text](../../assets/elf3/developer/motioncontrol/motionservice.png)<br>
 关掉它有以下办法<br>
 - 暂时关闭
 ```

@@ -11,7 +11,7 @@ BXI provides a full-stack open architecture:
 - ROS2-based hardware management nodes, allowing control policies to be deployed seamlessly to simulation and real hardware
 - Reinforcement-learning-based motion control training example code
 
-![System Architecture](../../assets/elf3/software_structure.png)
+![System Architecture](../../assets/elf3/developer/overview/software_structure.png)
 
 ## Documentation Directory
 

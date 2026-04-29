@@ -31,7 +31,7 @@ cd /home/bxi/bxi_ws/bxi_rl_controller_ros2_example
 source install/setup.bash
 ros2 launch bxi_example_py_elf3 example_launch_demo_hw.py
 ```
-![alt text](../../assets/elf3/motion1.png)<br>
+![alt text](../../assets/elf3/developer/motioncontrol/motion1.png)<br>
 After startup, the motors will power on and all LEDs will turn green. The robot will then begin its self-check. If the green lights remain on after 6 seconds, it indicates the self-check has passed.<br>
 - Start Remote Controller Program
 ```
@@ -236,7 +236,7 @@ If the green lights remain on after about 6 seconds, it means the self-check has
 ```
 systemctl status ros_elf_launch.service
 ```
-![alt text](../../assets/elf3/motionservice.png)<br>
+![alt text](../../assets/elf3/developer/motioncontrol/motionservice.png)<br>
 You can stop it using the following methods:<br>
 - Stop the Service Temporarily
 ```

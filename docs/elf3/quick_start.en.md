@@ -35,7 +35,7 @@ This document contains instructions for unboxing, basic operations, safety preca
 
     **Verify charger output voltage**: Connect the charger directly to a power source (without connecting to the robot) and check that the charger displays a voltage between **58V–60V**. If the voltage is outside this range, adjust it before connecting the robot.
 
-    ![Charger Diagram](../assets/elf3/charge.png){ width="300" }
+    ![Charger Diagram](../assets/elf3/quick_start/charge.png){ width="300" }
 
 ### 2. Connect Remote Controller
 Connect the remote controller to the robot PC via Bluetooth. The controller is pre-paired at the factory.

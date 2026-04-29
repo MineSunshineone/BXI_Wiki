@@ -35,7 +35,7 @@
 
     **验证充电器输出电压**：可直接将充电器接上电源（不接机器人），检查充电器显示电压是否在 **58V–60V** 之间。若超出此范围，请先调节后再连接机器人充电。
 
-    ![充电器示意图](../assets/elf3/charge.png){ width="300" }
+    ![充电器示意图](../assets/elf3/quick_start/charge.png){ width="300" }
 
 ### 2. 连接遥控器手柄
 将遥控器手柄和机器人 PC 机通过蓝牙连接。手柄出厂时已提前配对好。
@@ -82,7 +82,7 @@
 
 ## 手柄运动按键说明
 
-![Gamepad](../assets/elf3/gamepad.png)
+![Gamepad](../assets/elf3/quick_start/gamepad.png)
 
 | 功能 | 操作方式 | 说明 |
 | :--- | :--- | :--- |

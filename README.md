@@ -43,35 +43,60 @@ mkdocs serve
 
 ```
 docs/
-├── assets/                  # 全站共享静态资源（图片等）
+├── assets/                        # 全站共享静态资源（图片等）
 │   ├── elf3/
+│   │   ├── quick_start/           # 图片按所属 md 文件名归类存放
+│   │   ├── overview/
+│   │   └── developer/
+│   │       ├── motioncontrol/
+│   │       └── overview/
+│   ├── control/
+│   │   ├── appguide/
+│   │   └── toolguide/
 │   ├── actuators/
+│   │   └── Introduction/
+│   │       ├── BXI5014-19/
+│   │       ├── BXI5018-19/
+│   │       ├── BXI7010-19/
+│   │       └── BXI8515-19/
 │   └── ...
-├── .nav.yml                 # 根级导航配置（含 use_index_title: true）
-├── home.zh.md               # 中文首页
-├── home.en.md               # 英文首页
+├── .nav.yml                       # 根级导航配置（含 use_index_title: true）
+├── index.zh.md                    # 中文首页
+├── index.en.md                    # 英文首页
 │
 ├── elf3/
-│   ├── .nav.yml             # 控制子项排序，不含 index.md
-│   ├── index.zh.md          # 仅含 title frontmatter，提供 section 名称
-│   ├── index.en.md          # 仅含 title frontmatter
-│   ├── overview.zh.md       # 产品介绍内容
+│   ├── .nav.yml
+│   ├── index.zh.md                # 仅含 title frontmatter，提供 section 名称
+│   ├── index.en.md
+│   ├── overview.zh.md
 │   ├── overview.en.md
-│   ├── quick_start.zh.md    # 操作指南内容
+│   ├── quick_start.zh.md
 │   ├── quick_start.en.md
 │   └── developer/
 │       ├── .nav.yml
-│       ├── index.zh.md      # 仅含 title frontmatter
+│       ├── index.zh.md
 │       ├── index.en.md
+│       ├── overview.zh.md
+│       ├── motioncontrol.zh.md
 │       ├── navigation.zh.md
-│       └── navigation.en.md
+│       └── manipulation.zh.md     # （及各自对应的 .en.md）
+│
+├── control/
+│   ├── .nav.yml
+│   ├── index.zh.md
+│   ├── index.en.md
+│   ├── app_guide.zh.md            # BXI Control App 使用指南
+│   ├── app_guide.en.md
+│   ├── tool_guide.zh.md           # BXI Tool 电机上位机使用指南
+│   └── tool_guide.en.md
 │
 ├── actuators/
 │   ├── .nav.yml
-│   ├── index.zh.md          # 仅含 title frontmatter
+│   ├── index.zh.md
 │   ├── index.en.md
 │   ├── can_communication.zh.md
-│   └── ...
+│   └── Introduction/
+│       └── ...                    # 各电机型号介绍页
 └── ...
 ```
 
@@ -94,7 +119,7 @@ title: 精灵3 人形机器人
 | 文件夹名 / 文件名 | 只允许小写字母、数字、`_`、`-`，**禁止使用中文或空格** |
 | 中文文档 | `文件名.zh.md` |
 | 英文文档 | `文件名.en.md` |
-| 共享资源 | 统一放在 `docs/assets/对应产品/` 下，不重复存放 |
+| 共享资源 | 放在 `docs/assets/<栏目>/<md文件名>/` 下，按文档归类，不重复存放 |
 
 ---
 
@@ -136,6 +161,7 @@ use_index_title: true
 nav:
   - index.md
   - elf3
+  - control
   - half_robot    # 新加这一行
   - actuators
   - ...
@@ -159,10 +185,12 @@ nav:
 
 ## 插图引用
 
-所有图片统一存放在 `docs/assets/` 下，使用相对路径引用：
+所有图片统一存放在 `docs/assets/` 下，**按所属 md 文件名创建子目录**，使用相对路径引用：
 
 ```markdown
-![说明文字](../assets/elf3/demo.png)
+![说明文字](../assets/elf3/quick_start/demo.png)
 ```
 
-**禁止**在中英文目录下各存一份相同图片。
+命名规则：`docs/assets/<栏目>/<md文件名>/图片文件`，例如 `docs/elf3/quick_start.zh.md` 的图片放在 `docs/assets/elf3/quick_start/` 下。
+
+**禁止**在中英文目录下各存一份相同图片（中英文共用同一套图片）。

@@ -43,35 +43,60 @@ This project uses **i18n suffix mode**: Chinese and English files share the same
 
 ```
 docs/
-├── assets/                  # Shared static assets (images, etc.)
+├── assets/                        # Shared static assets (images, etc.)
 │   ├── elf3/
+│   │   ├── quick_start/           # Images organized by their owning md file
+│   │   ├── overview/
+│   │   └── developer/
+│   │       ├── motioncontrol/
+│   │       └── overview/
+│   ├── control/
+│   │   ├── appguide/
+│   │   └── toolguide/
 │   ├── actuators/
+│   │   └── Introduction/
+│   │       ├── BXI5014-19/
+│   │       ├── BXI5018-19/
+│   │       ├── BXI7010-19/
+│   │       └── BXI8515-19/
 │   └── ...
-├── .nav.yml                 # Root navigation config (includes use_index_title: true)
-├── home.zh.md               # Chinese homepage
-├── home.en.md               # English homepage
+├── .nav.yml                       # Root navigation config (includes use_index_title: true)
+├── index.zh.md                    # Chinese homepage
+├── index.en.md                    # English homepage
 │
 ├── elf3/
-│   ├── .nav.yml             # Controls item order, does NOT include index.md
-│   ├── index.zh.md          # Title frontmatter only — provides section name
-│   ├── index.en.md          # Title frontmatter only
-│   ├── overview.zh.md       # Product overview content
+│   ├── .nav.yml
+│   ├── index.zh.md                # Title frontmatter only — provides section name
+│   ├── index.en.md
+│   ├── overview.zh.md
 │   ├── overview.en.md
-│   ├── quick_start.zh.md    # Operation guide content
+│   ├── quick_start.zh.md
 │   ├── quick_start.en.md
 │   └── developer/
 │       ├── .nav.yml
-│       ├── index.zh.md      # Title frontmatter only
+│       ├── index.zh.md
 │       ├── index.en.md
+│       ├── overview.zh.md
+│       ├── motioncontrol.zh.md
 │       ├── navigation.zh.md
-│       └── navigation.en.md
+│       └── manipulation.zh.md     # (each with a matching .en.md)
+│
+├── control/
+│   ├── .nav.yml
+│   ├── index.zh.md
+│   ├── index.en.md
+│   ├── app_guide.zh.md            # BXI Control App user guide
+│   ├── app_guide.en.md
+│   ├── tool_guide.zh.md           # BXI Tool motor software guide
+│   └── tool_guide.en.md
 │
 ├── actuators/
 │   ├── .nav.yml
-│   ├── index.zh.md          # Title frontmatter only
+│   ├── index.zh.md
 │   ├── index.en.md
 │   ├── can_communication.zh.md
-│   └── ...
+│   └── Introduction/
+│       └── ...                    # Per-model actuator spec pages
 └── ...
 ```
 
@@ -94,7 +119,7 @@ These files **do not appear in the navigation menu** — they exist only to prov
 | Folder / file names | Lowercase letters, digits, `_`, `-` only — **no Chinese characters or spaces** |
 | Chinese documents | `filename.zh.md` |
 | English documents | `filename.en.md` |
-| Shared assets | Place under `docs/assets/<product>/` — never duplicate |
+| Shared assets | Place under `docs/assets/<section>/<md-filename>/` — organized by document, never duplicated |
 
 ---
 
@@ -134,8 +159,9 @@ docs/half_robot/
 use_index_title: true
 
 nav:
-  - home.md
+  - index.md
   - elf3
+  - control
   - half_robot      # add this line
   - actuators
   - ...
@@ -159,10 +185,12 @@ nav:
 
 ## Image References
 
-All images go under `docs/assets/`. Reference them with relative paths:
+All images go under `docs/assets/`, **in a subdirectory named after the owning md file**. Reference them with relative paths:
 
 ```markdown
-![Description](../assets/elf3/demo.png)
+![Description](../assets/elf3/quick_start/demo.png)
 ```
 
-**Never** store duplicate copies of the same image under separate language directories.
+Convention: `docs/assets/<section>/<md-filename>/image.png` — for example, images for `docs/elf3/quick_start.zh.md` go in `docs/assets/elf3/quick_start/`.
+
+**Never** store duplicate copies of the same image under separate language directories — Chinese and English pages share the same image files.
