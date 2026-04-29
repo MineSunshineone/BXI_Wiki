@@ -32,9 +32,7 @@ source install/setup.bash
 ros2 launch bxi_example_py_elf3 example_launch_demo_hw.py
 ```
 ![alt text](../../assets/elf3/motion1.png)<br>
-After startup, the motors will be powered on. You will observe green lights on all motors.
-The robot will enter a self-check process.
-If the green lights turn off after about 6 seconds, it indicates that the self-check has passed.<br>
+After startup, the motors will power on and all LEDs will turn green. The robot will then begin its self-check. If the green lights remain on after 6 seconds, it indicates the self-check has passed.<br>
 - Start Remote Controller Program
 ```
 #Real Robot
