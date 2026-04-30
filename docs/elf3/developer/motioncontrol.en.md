@@ -267,7 +267,7 @@ entry_points={
 source install/setup.bash
 ros2 run my_py_pkg motion_ctrl
 ```
-# Common Issues
+## Common Issues
 ### 1.How to Stop the Background Remote Controller Service
 If the green lights remain on after about 6 seconds, it means the self-check has passed.<br>
 - Check Service Status

@@ -268,7 +268,7 @@ source install/setup.bash
 ros2 run my_py_pkg motion_ctrl
 ```
 
-# 常见问题
+## 常见问题
 ### 1.如何关闭后台遥控器服务
 机器人上电的时候会自动启动遥控器服务方便平常调试与演示<br>
 - 查询服务状态
