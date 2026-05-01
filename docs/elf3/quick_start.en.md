@@ -1,7 +1,7 @@
-# Operation Guide
+# Operation Guide    
 
-This document contains instructions for unboxing, basic operations, safety precautions, and secondary development for the Genie 3 ELF3 robot.
-
+This document contains instructions for unboxing, basic operations, safety precautions, and secondary development for the Genie 3 ELF3 robot.    
+**Please read and follow the Robot Safety Instructions and Safety Guidelines before operating the robot**
 ---
 
 ## Unboxing Instructions
